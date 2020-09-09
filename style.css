@@ -32,12 +32,29 @@ a:hover{
 	left: 10%;
 }
 
+@media only screen and (max-width: 500px) {
+
+	h1{
+		font-size: 26px !important;
+	}
+      }
+
 #navigation{
 	position: absolute;
-	top: 15%;
+	top: 5%;
 	right: 10%;
 	font-size: 22px;
 	text-align: right;
+}
+
+#logo{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: solid 2px black;
 }
 
 svg{
@@ -48,7 +65,7 @@ svg{
 
 #to-bottom{
 	position: absolute;
-	bottom: 2%;
+	bottom: 4%;
 	width: 24px;
 	margin-left: auto;
 	margin-right: auto;
@@ -121,16 +138,6 @@ p{
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 0 5vw;
-}
-
-#logo{
-	position: absolute;
-	top: 15%;
-	left: 10%;
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	border: solid 2px black;
 }
 
 #extra-logo{
