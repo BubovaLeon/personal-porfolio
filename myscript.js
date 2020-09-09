@@ -5,6 +5,12 @@ $(document).scroll(function() {
 	} else {
 		$('#extra-header').fadeOut();
 	}
+
+	if (y > 1) {
+		$('#navigation').addClass('moved-navigation')
+	} else {
+		$('#navigation').removeClass('moved-navigation')
+	}
 	
       });
 

@@ -45,6 +45,7 @@ a:hover{
 	right: 10%;
 	font-size: 22px;
 	text-align: right;
+	transition: top 1.2s;
 }
 
 #logo{
@@ -214,4 +215,9 @@ blockquote {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+}
+
+
+.moved-navigation{
+	top: 35vh!important;
 }
