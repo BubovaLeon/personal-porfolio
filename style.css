@@ -139,8 +139,8 @@ p{
 }
 
 blockquote {
-	border-left: 3px solid gray;
-	color: gray;
+	border-left: 3px solid #666;
+	color: #666;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.25em;
 	font-style: italic;
