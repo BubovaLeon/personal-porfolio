@@ -1,6 +1,6 @@
 $(document).scroll(function() {
 	var y = $(this).scrollTop();
-	if (y > 700 && $( window ).width() < 1160){
+	if (y > 550 && $( window ).width() < 1160){
 		$('#extra-header').fadeIn();
 	} else {
 		$('#extra-header').fadeOut();
@@ -23,7 +23,7 @@ function checkHeaders(){
 		$('#extra-header').fadeOut();
 	} else {
 		$('#navigation').css({position:'absolute'});
-		if (y > 700){
+		if (y > 550){
 			$('#extra-header').fadeIn();
 		}
 	}
