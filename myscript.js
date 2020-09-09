@@ -6,7 +6,7 @@ $(document).scroll(function() {
 		$('#extra-header').fadeOut();
 	}
 
-	if (y > 1) {
+	if (y > 1 && $( window ).width() >= 1160) {
 		$('#navigation').addClass('moved-navigation')
 	} else {
 		$('#navigation').removeClass('moved-navigation')
