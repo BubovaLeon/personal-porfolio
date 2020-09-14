@@ -264,3 +264,15 @@ button{
 	box-shadow: 3px 3px 5px rgba(57, 63, 72, 0.5);
 }
 
+.cta-button{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+
+#cta-container{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10rem;
+	margin-top: 5rem;
+}
